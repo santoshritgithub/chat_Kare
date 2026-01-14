@@ -1,0 +1,31 @@
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
+    background-size: cover ;
+}
+
+a{
+    text-decoration: none;
+    color: #f8f2f2;
+}
+
+.admin-panel{
+  position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #1C4D8D;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 25px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+}   
+
+h1{
+    color: rgb(165 162 218);
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 350px;
+}
