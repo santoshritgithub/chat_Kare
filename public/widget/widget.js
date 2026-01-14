@@ -2,7 +2,7 @@
   // Load CSS
   const css = document.createElement("link");
   css.rel = "stylesheet";
-  css.href = "http://localhost:3000/widget/widget.css";
+  css.href = "/widget/widget.css";
   document.head.appendChild(css);
 
   // Load socket.io
@@ -11,7 +11,7 @@
   document.head.appendChild(script);
 
   script.onload = () => {
-    const socket = io("http://localhost:3000");
+    const socket = io();
 
     // Track unread messages
     let unreadCount = 0;
